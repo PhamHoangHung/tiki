@@ -134,13 +134,16 @@ header {
 
 .container_header--login .account .account--top {
     display: block;
-    margin-bottom: 5px;
 }
 
 .container_header--login .account .account--bottom img{
     width: 16px;
     height: 16px;
     align-items: center ;
+}
+
+.container_header--item {
+    margin: auto 0;
 }
 
 .container_header--cart {
@@ -154,6 +157,8 @@ header {
 .container_header--cart img {
     width: 32px;
     height: 32px;
+    margin-right: 8px;
+    border-radius: 2px;
 }
 
 /* END HEADER TOP */
